@@ -1,0 +1,8 @@
+panel:
+  url: sub.example.com
+  username: admin_username
+  password: admin_password
+
+users:
+  user1: 3 # usermame: iplimit
+  user2: 2

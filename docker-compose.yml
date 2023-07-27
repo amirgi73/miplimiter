@@ -1,0 +1,6 @@
+services:
+  miplimiter:
+    image: amirgi73/miplimiter:latest
+    restart: always
+    volumes:
+      - ./:/app/config
