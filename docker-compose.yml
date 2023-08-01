@@ -2,5 +2,7 @@ services:
   miplimiter:
     image: amirgi73/miplimiter:latest
     restart: always
+    environment:
+      - MIPL_LOG=debug 
     volumes:
       - ./:/app/config
